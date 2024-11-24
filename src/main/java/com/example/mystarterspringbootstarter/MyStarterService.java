@@ -1,4 +1,4 @@
-package work.pcdd.mystarterspringbootstarter;
+package com.example.mystarterspringbootstarter;
 
 /**
  * created at 2021/5/10 8:14

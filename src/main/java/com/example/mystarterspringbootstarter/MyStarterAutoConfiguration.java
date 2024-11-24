@@ -1,4 +1,4 @@
-package work.pcdd.mystarterspringbootstarter;
+package com.example.mystarterspringbootstarter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
@@ -22,6 +22,7 @@ public class MyStarterAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean(MyStarterService.class)
+    @ConditionalOnProperty(value = "mystarter.enable", havingValue = "true")
     public MyStarterService myStarterService() {
         return new MyStarterService(properties);
     }

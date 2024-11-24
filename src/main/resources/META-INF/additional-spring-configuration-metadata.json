@@ -1,19 +1,23 @@
 {
   "properties": [
     {
-      "name": "pcdd.mystarter.name",
+      "name": "mystarter.enable",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "mystarter.name",
       "type": "java.lang.String",
       "defaultValue": "",
       "description": "姓名."
     },
     {
-      "name": "pcdd.mystarter.age",
+      "name": "mystarter.age",
       "type": "java.lang.Integer",
       "defaultValue": "",
       "description": "年龄."
     },
     {
-      "name": "pcdd.mystarter.sex",
+      "name": "mystarter.sex",
       "type": "java.lang.Integer",
       "defaultValue": "M",
       "description": "性别."
